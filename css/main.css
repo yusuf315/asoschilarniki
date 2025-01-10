@@ -8,6 +8,7 @@
 
 body {
     background: #0D0D0D;
+    font-family: "Poppins", serif;
 }
 
 html {
@@ -148,7 +149,7 @@ li {
 }
 
 .menu-link {
-    font-family: Poppins;
+    font-family: "Poppins" serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20.8px;
@@ -794,7 +795,7 @@ li {
 }
 
 .static-list-title {
-    font-family: Poppins;
+    font-family: "Poppins" serif;
     font-size: 70px;
     font-weight: 400;
     line-height: 73.5px;
@@ -951,7 +952,7 @@ li {
 }
 
 .what-title {
-    font-family: Poppins;
+    font-family: "Poppins" serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 52.8px;
@@ -986,6 +987,10 @@ li {
     padding: 19px 27px 19px 18px;
 }
 
+.what-box2 {
+    height: ;
+}
+
 .what-img1 {
     padding-left: 16px;
     padding-right: 20px;
@@ -993,6 +998,11 @@ li {
 
 .what-img5 {
     padding-right: 8px;
+}
+
+.what-img2 {
+    margin-top: 20px;
+    margin-bottom: 16px;
 }
 
 .what-img6 {
@@ -1043,7 +1053,7 @@ li {
 }
 
 .meeting-title {
-    font-family: Poppins;
+    font-family: "Poppins" serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 52.8px;
@@ -1061,6 +1071,8 @@ li {
     gap: 62px;
 }
 
+
+
 .meeting-item {
     display: flex;
     flex-direction: column;
@@ -1069,8 +1081,11 @@ li {
 
 .meeting-box {
     display: flex;
-    gap: 22px;
+    align-items: start;
+    gap: 32px;
 }
+
+.meeting-box-img {}
 
 .meeting-text {
     font-family: "Poppins", serif;
@@ -1081,12 +1096,14 @@ li {
     text-align: left;
     max-width: 447px;
     color: #000000;
+
+    height: 114px;
 }
 
 .meeting-bold {}
 
 
-@media (max-width:768px) {
+@media (max-width:890px) {
 
     .meeting-list {
         flex-direction: column;
@@ -1105,6 +1122,7 @@ li {
 
     .meeting-text {
         text-align: center;
+        height: 120px;
     }
 
     .meeting-box img {
@@ -1279,12 +1297,17 @@ li {
     border: 2px solid #858585;
 }
 
-.stage-text-box {
+.stage-box {
     display: flex;
-    gap: 23px;
+    justify-content: center;
+    gap: 57px;
 }
 
-.stage-text {
+.stage-text1 {
+    max-width: 256px;
+}
+
+.stage-text2 {
 
     font-family: "Poppins", serif;
     font-size: 18px;
@@ -1294,7 +1317,13 @@ li {
     text-align: left;
     color: #000000;
 
-    max-width: 256px;
+    max-width: 172px ;
+
+}
+
+.stage-text3 {
+ 
+    max-width: 180px;
 }
 
 .stage-text-span {
@@ -1313,6 +1342,10 @@ li {
 
 .stage-img {
     margin-top: 46px;
+}
+
+.stage-col-img1 {
+    margin-top: 18px;
 }
 
 .stage-col-img2 {
@@ -1724,7 +1757,7 @@ li {
 }
 
 .cuestic-title {
-    font-family: Poppins;
+    font-family: "Poppins" serif;
     font-size: 54px;
     font-weight: 500;
     line-height: 55px;
@@ -1772,7 +1805,7 @@ li {
 }
 
 .cuestic-link {
-    font-family: Poppins;
+    font-family: "Poppins"serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -1784,7 +1817,7 @@ li {
 }
 
 .cuestic-span {
-    font-family: Poppins;
+    font-family: "Poppins",serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -1884,7 +1917,7 @@ li {
 }
 
 .footer-link {
-    font-family: HelveticaNeueCyr;
+    font-family: "HelveticaNeueCyr",serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 17.91px;
@@ -1901,7 +1934,7 @@ li {
 .footer-box-img {}
 
 .footer-text {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display",serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 16.2px;
@@ -1933,3 +1966,6 @@ li {
     .footer-text {}
 
 }
+
+
+
